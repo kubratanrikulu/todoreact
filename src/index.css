@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.strike {
+  text-decoration: line-through;
+}
+.App {
+  background: rgb(201,114,146);
+  background: linear-gradient(90deg, rgba(201,114,146,1) 0%, rgba(2,0,36,1) 0%, rgba(194,117,150,1) 0%, rgba(0,212,255,0.6194852941176471) 99%);
+
+}
+form button {
+  background: #c97292;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+}
+.header {
+  color: #c97292;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+.todo-list li {
+  list-style: none;
+}
+.todo-list input {
+border: none;
 }
